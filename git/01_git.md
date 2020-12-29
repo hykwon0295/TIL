@@ -6,12 +6,13 @@
 
 - `git add` : git으로  관리할 파일들을 추가!
 
-  `git add A.txt` : ` A.txt` 파일을 INDEX(Stating 영역)에 등록 (폴더도 가능)
+  - `git add A.txt` : ` A.txt` 파일을 INDEX(Stating 영역)에 등록 (폴더도 가능)
 
-  `git add .` : 현재 폴더(`.`)를 INDEX에 등록, 폴더를 등록하면 내부의 모든 파일이 등록됨
+  - `-git add .` : 현재 폴더(`.`)를 INDEX에 등록, 폴더를 등록하면 내부의 모든 파일이 등록됨
 
   - `git commit` : INDEX에 있는 파일들을 가지고 commit(history, 역사, 기록)을 남김!
-  - git commit -m '메세지' : 기록을 남기면서, `메세지`를 남김!(필수)
+
+    git commit -m '메세지' : 기록을 남기면서, `메세지`를 남김!(필수)
 
 - `git log` : 남겨온 commit들을 확인
 
