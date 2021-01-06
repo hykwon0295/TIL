@@ -1,6 +1,3 @@
- #  Today I Learned
+# Today I Learned
 
 - [git](git)
-
-  
-
